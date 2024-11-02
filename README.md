@@ -4,19 +4,11 @@ A thrilling 2D space shooter game created using Pygame. Battle it out in space a
 
 ## Table of Contents
 
-- [Features](#features)
 - [Installation](#installation)
-- [How to Play](#how-to-play)
+- [Usage](#usage)
+- [Explanation](#explanation)
 - [Contributing](#contributing)
 - [License](#license)
-
-## Features
-
-- **Player Control**: Control your spaceship with smooth movements.
-- **Bullet Shooting**: Shoot bullets to hit the opponent's spaceship.
-- **Health Tracking**: Real-time health tracking and display.
-- **Winner Announcement**: Announces the winner when health drops to zero.
-- **Customizable Settings**: Easily change settings like speed and bullet velocity.
 
 ## Installation
 
@@ -27,33 +19,27 @@ A thrilling 2D space shooter game created using Pygame. Battle it out in space a
     ```
 
 2. **Install Dependencies**:
-    Make sure you have Python installed. Then, install the required dependencies:
+    Ensure you have Python and Pygame installed. You can install Pygame using pip:
     ```sh
     pip install pygame
     ```
 
-3. **Run the Game**:
+## Usage
+
+1. **Run the Game**:
     ```sh
     python main.py
     ```
 
-## How to Play
+## Explanation
 
-- **Yellow Spaceship Controls**:
-  - Move left: `A`
-  - Move right: `D`
-  - Move up: `W`
-  - Move down: `S`
-  - Shoot: `Left Control`
+### Code Overview
 
-- **Red Spaceship Controls**:
-  - Move left: `Arrow Left`
-  - Move right: `Arrow Right`
-  - Move up: `Arrow Up`
-  - Move down: `Arrow Down`
-  - Shoot: `Right Control`
-
-- **Objective**: Shoot your opponent's spaceship and avoid getting hit. The first player to reduce the opponent's health to zero wins!
+The script includes the following key components:
+- **Player Control**: Use the keyboard to control the movement of the spaceships.
+- **Bullet Shooting**: Spaceships can shoot bullets to hit the opponent.
+- **Health Tracking**: Real-time health tracking and display for each spaceship.
+- **Winner Announcement**: Announces the winner when a spaceship's health drops to zero.
 
 ## Contributing
 
